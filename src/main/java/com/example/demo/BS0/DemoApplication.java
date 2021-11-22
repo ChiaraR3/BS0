@@ -14,7 +14,7 @@ public class DemoApplication {
 
 	@GetMapping("/user/{nombre}")
 	public String getUserByName(@PathVariable String nombre) {
-		return "Hola " +nombre;
+		return "Hola " +nombre +"!";
 	}
 
 	@PostMapping("/useradd")
