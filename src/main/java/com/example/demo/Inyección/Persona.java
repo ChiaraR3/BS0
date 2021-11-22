@@ -20,13 +20,13 @@ public class Persona {
             this.age = age;
         }
        public String getName() {
-            return "Chiara";
+            return name;
         }
         public String getCity() {
-            return "Bari";
+            return city;
         }
         public int getAge() {
-            return 30;
+            return age;
         }
     }
 
